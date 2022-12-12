@@ -56,7 +56,7 @@
 
 <script>
 export default {
-    name: "home",
+    name: "HomeSection",
     mounted(){
         location.href = "/#home"
     }

@@ -45,7 +45,7 @@
 
 <script>
 export default {
-    name: "ourGoal",
+    name: "OurGoal",
     mounted(){
         location.href = "/#ourGoal"
     }

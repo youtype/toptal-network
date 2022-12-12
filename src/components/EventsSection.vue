@@ -32,7 +32,7 @@
 </template>
 <script>
 export default {
-    name: "events"
+    name: "EventsSection"
 };
 </script>
 <style scoped>

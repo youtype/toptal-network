@@ -2,7 +2,7 @@
     <div id="app">
         <HomeSection />
         <OurGoal />
-        <Events />
+        <EventsSection />
         <ContactSection />
     </div>
 </template>
@@ -10,14 +10,14 @@
 <script>
 import HomeSection from "./components/HomeSection.vue";
 import OurGoal from "./components/OurGoal.vue";
-import Events from "./components/Events.vue";
+import EventsSection from "./components/EventsSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 export default {
     name: "app",
     components: {
         HomeSection,
         OurGoal,
-        Events,
+        EventsSection,
         ContactSection
     }
 };

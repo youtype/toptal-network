@@ -18,7 +18,7 @@
 </template>
 <script>
 export default {
-    name: "contact"
+    name: "ContactSection"
 };
 </script>
 <style scoped>
