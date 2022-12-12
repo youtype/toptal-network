@@ -1,5 +1,5 @@
 <template>
-        <div id="our goal" class="offset">
+        <div id="ourGoal" class="offset">
             <div class="col-md-12 narrow text-center">
                 <div class="message">&#8226; What is the difference between working remotely and freelancing?</div>
                 <div class="message">&#8226; How to pass TopTal interview process and join the top 3% of Software Developers?</div>
@@ -45,7 +45,10 @@
 
 <script>
 export default {
-    name: "our goal"
+    name: "ourGoal",
+    mounted(){
+        location.href = "/#ourGoal"
+    }
 };
 </script>
 

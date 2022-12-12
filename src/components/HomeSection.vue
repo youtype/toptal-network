@@ -21,7 +21,7 @@
                         <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#our goal"  class="nav-link">Our Goal</a>
+                        <a href="#ourGoal"  class="nav-link">Our Goal</a>
                     </li>
                     <li class="nav-item">
                         <a href="#events"  class="nav-link">Events</a>
