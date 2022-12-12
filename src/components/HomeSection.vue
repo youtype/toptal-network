@@ -57,9 +57,6 @@
 <script>
 export default {
   name: "HomeSection",
-  mounted() {
-    location.hash = "home";
-  },
 };
 </script>
 <style scoped>

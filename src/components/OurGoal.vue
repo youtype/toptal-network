@@ -17,37 +17,25 @@
       <div class="narrow text-center">
         <div class="row text-center">
           <div class="col-md-4">
-            <div class="feature">
-              <img src="@/assets/images/step1.png" alt="" />
-              <div class="description">
-                <h3>Learn about working remotely</h3>
-                <p>Get a full overview of Toptal advantages and learn how to start.</p>
-              </div>
-            </div>
+            <Card title="Learn about working remotely" image="step1.png">
+              <p>Get a full overview of Toptal advantages and learn how to start.</p>
+            </Card>
           </div>
           <div class="col-md-4">
-            <div class="feature">
-              <img src="@/assets/images/step2.png" alt="" />
-              <div class="description">
-                <h3>Prepare for the interview</h3>
-                <p>
-                  Join our guided interview process to easily pass all interview steps and
-                  join top 3%
-                </p>
-              </div>
-            </div>
+            <Card title="Prepare for the interview" image="step2.png">
+              <p>
+                Join our guided interview process to easily pass all interview steps and
+                join top 3%
+              </p>
+            </Card>
           </div>
           <div class="col-md-4">
-            <div class="feature">
-              <img src="@/assets/images/step3.png" alt="" />
-              <div class="description">
-                <h3>Start working on Toptal</h3>
-                <p>
-                  Get the most interesting projects from all over the world. And learn how
-                  to find the best one.
-                </p>
-              </div>
-            </div>
+            <Card title="Start working on Toptal" image="step3.png">
+              <p>
+                Get the most interesting projects from all over the world. And learn how
+                to find the best one.
+              </p>
+            </Card>
           </div>
         </div>
       </div>
@@ -57,8 +45,13 @@
 </template>
 
 <script>
+import Card from "./Card.vue";
+
 export default {
   name: "OurGoal",
+  components: {
+    Card,
+  },
 };
 </script>
 
@@ -87,13 +80,5 @@ img {
   content: "";
   height: 3.7rem;
   margin-top: -3.7rem;
-}
-.feature h3 {
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  padding-bottom: 0.4rem;
-}
-.feature p {
-  font-size: 1.1rem;
 }
 </style>
