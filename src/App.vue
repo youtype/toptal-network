@@ -1,29 +1,23 @@
 <template>
     <div id="app">
         <HomeSection />
-        <CoursesSection />
-        <FeaturesSection />
-        <ResourcesSection />
-        <ClientsSection />
+        <OurGoal />
+        <Events />
         <ContactSection />
     </div>
 </template>
 
 <script>
 import HomeSection from "./components/HomeSection.vue";
-import CoursesSection from "./components/CoursesSection.vue";
-import FeaturesSection from "./components/FeaturesSection.vue";
-import ResourcesSection from "./components/ResourcesSection.vue";
-import ClientsSection from "./components/ClientsSection.vue";
+import OurGoal from "./components/OurGoal.vue";
+import Events from "./components/Events.vue";
 import ContactSection from "./components/ContactSection.vue";
 export default {
     name: "app",
     components: {
         HomeSection,
-        CoursesSection,
-        FeaturesSection,
-        ResourcesSection,
-        ClientsSection,
+        OurGoal,
+        Events,
         ContactSection
     }
 };
@@ -33,8 +27,10 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    font-family: Roboto -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     overflow-x: hidden;
     color: #505962;
+    background-color: #101010;
     font-family: "Noto Sans", sans-serif;
 }
 .offset:before {
@@ -59,7 +55,7 @@ body {
 }
 .btn-lg {
     border-width: medium;
-    border-radius: 0;
+    border-radius: 10px;
     padding: 0.6rem 1.3rem;
     font-size: 1.1rem;
 }
@@ -71,16 +67,18 @@ body {
     padding: 0.6rem 1.2rem;
     margin: 1rem;
     color: white !important;
-    background-color: #1ebba3;
-    border-color: #1ebba3;
+    background-color: #1b45b1;
+    border-color: #1b45b1;
+    border-radius: 10px;
 }
 .btn-md {
     border-radius: 2rem;
 }
 .btn-lg:hover,
 .btn-secondary:hover {
-    background-color: #189582;
-    border-color: #189582;
+    background-color: #1b45b1;
+    border-color: #1b45b1;
+    color: white;
 }
 h3.heading {
     font-size: 1.9rem;
@@ -91,10 +89,7 @@ h3.heading {
 .heading-underline {
     width: 12rem;
     height: 0.2rem;
-    background-color: #1ebba3;
+    background-color: #204ecf;
     margin: 0 auto 2rem;
-}
-.feature svg.svg-inline--fa {
-    color: #1ebba3;
 }
 </style>

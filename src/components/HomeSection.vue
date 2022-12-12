@@ -4,7 +4,8 @@
         <!-- Start navigation -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a href="#home" class="navbar-brand">
-                <img src="@/assets/images/logo.png" alt="Brand" />
+                <img src="@/assets//images/logo.png" alt="Toptal-Network" />
+                <div>Toptal Network</div>
             </a>
             <button
                 type="button"
@@ -20,16 +21,10 @@
                         <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#courses"  class="nav-link">Courses</a>
+                        <a href="#our goal"  class="nav-link">Our Goal</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#features"  class="nav-link">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resouces"  class="nav-link">Resouces</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#clients"  class="nav-link">Clients</a>
+                        <a href="#events"  class="nav-link">Events</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact"  class="nav-link">Contact</a>
@@ -44,14 +39,14 @@
             <div class="overlay"></div>
         </div>
         <div class="caption text-center">
-            <h1>Welcome To My Vue.js Land Page</h1>
-            <h3>This Page Built Using Vuejs Library</h3>
+            <div class="header">Welcome To Toptal Network</div>
+            <div class="subheader">Your personal guide to remote work</div>
             <a
-                href="https://vuejs.org/v2/guide/"
+                href="https://t.me/+FhvGOWeRdQI2NGM0"
                 target="_blank"
                 class="btn btn-outline-light btn-lg"
             >
-                Start Learn Vuejs
+                Join our Telegram chat
             </a>
         </div>
         <!-- End Hero -->
@@ -75,7 +70,13 @@ export default {
     letter-spacing: 0.1rem;
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
 .navbar-brand img {
+    border-radius: 100%;
+    margin-right: 10px;
     height: 2rem;
 }
 .navbar-toggler {
@@ -90,10 +91,25 @@ export default {
 }
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:hover {
-    color: #1ebba3;
+    color: #204ecf;
     cursor: pointer;
 }
-
+.header {
+    font-size: 4rem;
+}
+.subheader {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 700px) {
+    .header {
+        font-size: 2.5rem;
+    }
+    .subheader {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+}
 .hero {
     height: 100vh;
     width: 100%;
