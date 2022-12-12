@@ -1,50 +1,50 @@
 <template>
-    <div id="contact" class="offset">
-        <footer>
-            <div class="button-wrapper">
-                <a
-                href="https://t.me/+FhvGOWeRdQI2NGM0"
-                target="_blank"
-                class="btn btn-outline-light btn-lg"
-                >
-                    Join our Telegram chat
-                </a>                
-            </div>
-            <div class="logo-wrapper">
-                <img src="../assets/images/logo.png" />
-            </div>
-        </footer>
-    </div>
+  <div id="contact" class="offset">
+    <footer>
+      <div class="button-wrapper">
+        <a
+          href="https://t.me/+FhvGOWeRdQI2NGM0"
+          target="_blank"
+          class="btn btn-outline-light btn-lg"
+        >
+          Join our Telegram chat
+        </a>
+      </div>
+      <div class="logo-wrapper">
+        <img src="../assets/images/logo.png" />
+      </div>
+    </footer>
+  </div>
 </template>
 <script>
 export default {
-    name: "ContactSection"
+  name: "ContactSection",
 };
 </script>
 <style scoped>
-#contact:before{
-    display: block;
-    content: "";
-    height: 1.6rem;
-    margin-top: -1.6rem;
+#contact:before {
+  display: block;
+  content: "";
+  height: 1.6rem;
+  margin-top: -1.6rem;
 }
 .button-wrapper {
-    margin: 1rem 0 0.5rem;
-    text-align: center;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
 }
 footer {
-    color: white;
-    padding: .7rem 0;
+  color: white;
+  padding: 0.7rem 0;
 }
 .logo-wrapper {
-    text-align: end;
+  text-align: end;
 }
-.logo-wrapper img{
-    height: 40px;
-    border-radius: 100%;
-    margin: 0 1rem;
+.logo-wrapper img {
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 1rem;
 }
-footer a{
-    color: white;
+footer a {
+  color: white;
 }
 </style>
