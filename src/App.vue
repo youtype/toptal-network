@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HomeSection />
-    <OurGoal />
+    <GoalSection />
     <EventsSection />
     <ContactSection />
   </div>
@@ -9,14 +9,14 @@
 
 <script>
 import HomeSection from "./components/HomeSection.vue";
-import OurGoal from "./components/OurGoal.vue";
+import GoalSection from "./components/GoalSection.vue";
 import EventsSection from "./components/EventsSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 export default {
   name: "app",
   components: {
     HomeSection,
-    OurGoal,
+    GoalSection,
     EventsSection,
     ContactSection,
   },
