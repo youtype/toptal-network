@@ -45,10 +45,10 @@
 </template>
 
 <script>
-import Card from "./Card.vue";
+import Card from "./common/Card.vue";
 
 export default {
-  name: "OurGoal",
+  name: "GoalSection",
   components: {
     Card,
   },

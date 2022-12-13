@@ -2,23 +2,22 @@
   <div id="contact" class="offset">
     <footer>
       <div class="button-wrapper">
-        <a
-          href="https://t.me/+FhvGOWeRdQI2NGM0"
-          target="_blank"
-          class="btn btn-outline-light btn-lg"
-        >
-          Join our Telegram chat
-        </a>
+        <TelegramButton />
       </div>
       <div class="logo-wrapper">
-        <img src="../assets/images/logo.png" />
+        <img src="@/assets/images/logo.png" />
       </div>
     </footer>
   </div>
 </template>
 <script>
+import TelegramButton from "./common/TelegramButton.vue";
+
 export default {
   name: "ContactSection",
+  components: {
+    TelegramButton,
+  },
 };
 </script>
 <style scoped>

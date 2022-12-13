@@ -1,0 +1,1 @@
+export const TELEGRAM_LINK = "https://t.me/+FhvGOWeRdQI2NGM0"

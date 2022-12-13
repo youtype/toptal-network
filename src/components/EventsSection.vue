@@ -5,9 +5,18 @@
       <div class="narrow text-center">
         <div class="row text-center">
           <div class="col-md-4">
-            <Card title="Learn about working remotely" image="step1.png">
+            <EventCard
+              title="Learn about working remotely"
+              date="2022-12-14 15:00:00"
+              telegram
+            >
               <p>Get a full overview of Toptal advantages and learn how to start.</p>
-            </Card>
+            </EventCard>
+          </div>
+          <div class="col-md-4">
+            <EventCard title="Learn about working remotely2" date="2022-12-16 17:00:00">
+              <p>Get a full overview of Toptal advantages and learn how to start.</p>
+            </EventCard>
           </div>
         </div>
       </div>
@@ -15,12 +24,12 @@
   </div>
 </template>
 <script>
-import Card from "./Card.vue";
+import EventCard from "./common/EventCard.vue";
 
 export default {
   name: "EventsSection",
   components: {
-    Card,
+    EventCard,
   },
 };
 </script>

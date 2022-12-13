@@ -41,13 +41,7 @@
     <div class="caption text-center">
       <div class="header">Welcome To Toptal Network</div>
       <div class="subheader">Your personal guide to remote work</div>
-      <a
-        href="https://t.me/+FhvGOWeRdQI2NGM0"
-        target="_blank"
-        class="btn btn-outline-light btn-lg"
-      >
-        Join our Telegram chat
-      </a>
+      <TelegramButton />
     </div>
     <!-- End Hero -->
   </div>
@@ -55,8 +49,13 @@
 </template>
 
 <script>
+import TelegramButton from "./common/TelegramButton.vue";
+
 export default {
   name: "HomeSection",
+  components: {
+    TelegramButton,
+  },
 };
 </script>
 <style scoped>
