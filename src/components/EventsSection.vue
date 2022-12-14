@@ -5,17 +5,15 @@
       <div class="narrow text-center">
         <div class="row text-center">
           <div class="col-md-4">
-            <EventCard
-              title="Learn about working remotely"
-              date="2022-12-14 15:00:00"
-              telegram
-            >
-              <p>Get a full overview of Toptal advantages and learn how to start.</p>
+            <EventCard title="Project presentation" date="2022-12-17 16:30:00" telegram>
+              <p>Project presentation at Legat Business forum.</p>
+              <p>Address: Denizim Park Antalya</p>
             </EventCard>
           </div>
           <div class="col-md-4">
-            <EventCard title="Learn about working remotely2" date="2022-12-16 17:00:00">
-              <p>Get a full overview of Toptal advantages and learn how to start.</p>
+            <EventCard title="Project presentation" date="2022-12-18 16:30:00" telegram>
+              <p>Project presentation at Legat Business forum.</p>
+              <p>Address: Denizim Park Antalya</p>
             </EventCard>
           </div>
         </div>
